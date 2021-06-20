@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <th:block th:include="../templates/layout::headerfiles"></th:block>
+</head>
+<body>
+    <div th:replace="../templates/layout::header"></div>
+    <div role="main" class="container">
+        <h3>Spring Boot : <span th:text="${title}"></span></h3>
+        <div class="alert alert-default">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consectetur corporis hic id iste magni minus modi nobis numquam officia placeat possimus quidem, quos repellat ullam? Aut modi quas quisquam!
+        </div>
+    </div>
+    <div th:replace="../templates/layout :: footer"></div>
+
+    <th:block th:include="../templates/layout::scriptfiles"></th:block>
+</body>
+</html>
